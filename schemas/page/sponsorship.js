@@ -16,6 +16,14 @@ export default {
                 name: 'name',
                 title: 'Tier Name',
                 type: 'string',
+                options: {
+                  list: [
+                    { title: 'Gold', value: 'gold' },
+                    { title: 'Silver', value: 'silver' },
+                    { title: 'Bronze', value: 'bronze' },
+                    { title: 'None', value: 'none' },
+                  ], // Defines the list of possible options for the tier
+                },
                 description: 'The name of the sponsorship tier (Gold, Platinum, Silver, etc.).',
               },
               {
