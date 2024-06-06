@@ -6,7 +6,7 @@ export default {
       {
         name: 'year',
         title: 'Year',
-        type: 'integer',
+        type: 'text',
         description: 'Year in which the team lead was active',
       },
       {

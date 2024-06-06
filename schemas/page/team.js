@@ -21,11 +21,10 @@ export default {
       type: 'string',
       description: 'The title or position of the team member within the club.',
     },
-    ,
     {
       name: 'year',
       title: 'Year',
-      type: 'integer',
+      type: 'string',
       description: 'Batch year of the team member.',
     },
     {
