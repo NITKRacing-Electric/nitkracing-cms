@@ -21,6 +21,13 @@ export default {
       type: 'string',
       description: 'The title or position of the team member within the club.',
     },
+    ,
+    {
+      name: 'year',
+      title: 'Year',
+      type: 'integer',
+      description: 'Batch year of the team member.',
+    },
     {
       name: 'image',
       title: 'Image',
@@ -35,7 +42,8 @@ export default {
     select: {
       title: 'memberName',
       subtitle: 'heading',
-      media:'image'
+      media:'image',
+      year: 'year',
     },
   },
 };
