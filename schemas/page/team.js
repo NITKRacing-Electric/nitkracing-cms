@@ -36,12 +36,18 @@ export default {
         hotspot: true, // Enables the hotspot for precise control over how images are cropped
       },
     },
+    {
+      name: 'socialLink',
+      title: 'Social Link',
+      type: 'url',
+      description: 'A link to the team member\'s social media profile or personal website.',
+    },
   ],
   preview: {
     select: {
       title: 'memberName',
       subtitle: 'heading',
-      media:'image',
+      media: 'image',
       year: 'year',
     },
   },

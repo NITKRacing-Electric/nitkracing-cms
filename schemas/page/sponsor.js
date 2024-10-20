@@ -32,6 +32,18 @@ export default {
         ], // Defines the list of possible options for the tier
       },
     },
+    {
+      name: 'sponsorLink',
+      title: 'Sponsor Link',
+      type: 'url',
+      description: 'The website or relevant link for the sponsor.',
+    },
+    {
+      name: 'sponsorDescription',
+      title: 'Sponsor Description',
+      type: 'text',
+      description: 'A brief description of the sponsor.',
+    },
   ],
   preview: {
     select: {
