@@ -25,10 +25,12 @@ export default {
       description: 'The sponsorship tier.',
       options: {
         list: [
-          { title: 'Gold', value: 'gold' },
-          { title: 'Silver', value: 'silver' },
-          { title: 'Bronze', value: 'bronze' },
-          { title: 'None', value: 'none' },
+          {title: 'Gold', value: 'gold'},
+          {title: 'Silver', value: 'silver'},
+          {title: 'Bronze', value: 'bronze'},
+          {title: 'Platinum', value: 'platinum'},
+          {title: 'Software', value: 'software'},
+          {title: 'None', value: 'none'},
         ], // Defines the list of possible options for the tier
       },
     },
@@ -52,12 +54,12 @@ export default {
       media: 'picture',
     },
     prepare(selection) {
-      const { title, subtitle, media } = selection;
+      const {title, subtitle, media} = selection
       return {
         title: title,
         subtitle: subtitle.charAt(0).toUpperCase() + subtitle.slice(1), // Capitalize the first letter of the tier
         media,
-      };
+      }
     },
   },
-};
+}
